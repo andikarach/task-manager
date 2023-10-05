@@ -92,9 +92,6 @@ class Auth extends Controller{
     public function logout_process(Request $request){
         if ($request->session()->has('id_user')) {
 
-            // Save to log data (unfinished)
-            // Process
-
             $request->session()->forget('id_user');
             $request->session()->forget('email');
             $request->session()->forget('name');
