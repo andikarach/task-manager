@@ -50,7 +50,7 @@ Here are the steps to install this project on your local environment.
 # 8. Run the seeders
     command : php artisan db:seed
 
-# 7 Serve the Application: 
+# 9. Serve the Application: 
     command : php artisan serv
 
 Laravel application should now be accessible at http://localhost:8000 in your web browser.
