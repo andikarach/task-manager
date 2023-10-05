@@ -30,6 +30,14 @@ class UserTableSeeder extends Seeder
                 'password'   => md5('alexander3'),
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
+            ],
+            [
+                'name' => 'Romeo',
+                'email'=> 'romeo@gmail.com',
+                'role' => 'user',
+                'password'   => md5('alexander3'),
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s')
             ]
         ];
 

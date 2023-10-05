@@ -42,6 +42,78 @@ class TaskTableSeeder extends Seeder
                 'created_at'    => date('Y-m-d H:i:s'),
                 'updated_at'    => date('Y-m-d H:i:s')
             ],
+            [
+                'id_category'   => '1',
+                'id_user'       => '2',
+                'task'          => 'Integrasi API',
+                'status'        => 'hold',
+                'description'   => 'Integrasi API List Article',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '2',
+                'id_user'       => '2',
+                'task'          => 'Testing Feature Scan Barcode',
+                'status'        => 'progress',
+                'description'   => 'Testing feature scan barcode with developer',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '1',
+                'id_user'       => '2',
+                'task'          => 'Integrasi API',
+                'status'        => 'hold',
+                'description'   => 'Integrasi API List Article',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '2',
+                'id_user'       => '2',
+                'task'          => 'Testing Feature Scan Barcode',
+                'status'        => 'progress',
+                'description'   => 'Testing feature scan barcode with developer',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '1',
+                'id_user'       => '3',
+                'task'          => 'Integrasi API',
+                'status'        => 'hold',
+                'description'   => 'Integrasi API List Article',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '2',
+                'id_user'       => '3',
+                'task'          => 'Testing Feature Scan Barcode',
+                'status'        => 'progress',
+                'description'   => 'Testing feature scan barcode with developer',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '2',
+                'id_user'       => '3',
+                'task'          => 'Testing Feature Scan Barcode',
+                'status'        => 'progress',
+                'description'   => 'Testing feature scan barcode with developer',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
+            [
+                'id_category'   => '2',
+                'id_user'       => '3',
+                'task'          => 'Testing Feature Scan Barcode',
+                'status'        => 'progress',
+                'description'   => 'Testing feature scan barcode with developer',
+                'created_at'    => date('Y-m-d H:i:s'),
+                'updated_at'    => date('Y-m-d H:i:s')
+            ],
         ];
 
         DB::table('task')->insert($data);
