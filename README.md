@@ -1,22 +1,29 @@
 # Task Manager
 
-Deskripsi singkat proyek Anda di sini.
+Simple apps to manage Task. User can create, edit or delete Task whenerever they want and another user cannot check task from other users.
 
 ## Instalasi
 
-Berikut adalah langkah-langkah untuk menginstal proyek ini di lingkungan lokal Anda.
+Here are the steps to install this project on your local environment.
 
-### Persyaratan
+### Prerequisites
 
-Sebelum Anda memulai, pastikan Anda telah menginstal hal berikut:
+Before you get started, make sure you have the following:
 
-- PHP (versi yang direkomendasikan: 7.3 atau lebih tinggi)
+- PHP (recommended version: 7.3 or higher)
 - Composer (https://getcomposer.org/)
-- Node.js dan npm (https://nodejs.org/)
+- Node.js and npm (https://nodejs.org/)
 
-### Langkah 1: Clone Repository
+### Step 1: Clone the Repository
 
-Clone repositori proyek ini ke komputer Anda:
+Clone this project's repository to your computer:
 
-```bash
-git clone https://github.com/username/nama-proyek.git
+== bash
+git clone https://github.com/andikarach/task-manager.git
+
+### Step 2: Install Dependencies
+
+Navigate git bash / cmd to the project directory:
+
+- cd project-name
+- composer install  
