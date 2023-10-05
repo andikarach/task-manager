@@ -6,24 +6,57 @@ Simple apps to manage Task. User can create, edit or delete Task whenerever they
 
 Here are the steps to install this project on your local environment.
 
-### Prerequisites
+- PHP               : 7.3 or higher
+- Laravel Framework : 8.83.27
+- Composer          : version 2.2.7
+- Database          : MySQL
 
-Before you get started, make sure you have the following:
+### Instalation Steps
 
-- PHP (recommended version: 7.3 or higher)
-- Composer (https://getcomposer.org/)
-- Node.js and npm (https://nodejs.org/)
+# 1. Clone this project's repository to your computer:
+    run this command in specific directory
+    command : git clone https://github.com/andikarach/task-manager.git
 
-### Step 1: Clone the Repository
+# 2. Navigate to the Project Directory:
+    command :  cd your-laravel-project
 
-Clone this project's repository to your computer:
+# 3. Install Composer Dependencies:
+    command : composer install
 
-== bash
-git clone https://github.com/andikarach/task-manager.git
+# 4. Create .env File: 
+    Make a copy of the .env.example file and rename it to .env
+    Configuration : 
 
-### Step 2: Install Dependencies
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=db_app_tasks
+    DB_USERNAME= {yourusername, default root}
+    DB_PASSWORD= {yourpassword, default '' / empty}
 
-Navigate git bash / cmd to the project directory:
+    Update the .env file with your database configuration and other environment-specific settings.
 
-- cd project-name
-- composer install  
+# 5 Generate Application Key:
+    Generate a unique application key to secure your application
+    command : php artisan key:generate
+
+# 6. Create database mysql on your computer
+    database name : db_app_tasks
+
+# 7. Run Database Migrations and Seeders:
+    Run the database migrations to create the necessary database tables, 
+    command : php artisan migrate
+
+# 8. Run the seeders
+    command : php artisan db:seed
+
+# 7 Serve the Application: 
+    command : php artisan serv
+
+Laravel application should now be accessible at http://localhost:8000 in your web browser.
+
+You can login use default user or you can register new user.
+- Admin 
+    myadmin@gmail.com / admin123
+- User
+    alexander@gmail.com / alexander3
